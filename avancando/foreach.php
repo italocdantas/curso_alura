@@ -14,5 +14,5 @@ $contasCorrentes = [
 ];
 foreach($contasCorrentes as $cpf => $conta){
     echo $cpf . PHP_EOL;
-
+    echo $conta . PHP_EOL;
 }
