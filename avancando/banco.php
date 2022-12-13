@@ -42,4 +42,4 @@ $contasCorrentes['123.456.789-12'] = depositar($contasCorrentes['123.456.789-12'
 foreach ($contasCorrentes as $cpf => $conta) {
     exibeMensagem($cpf . " " . $conta['titular'] . ' ' . $conta['saldo']);
 }
-//novocomentario
+//novocomentario2
