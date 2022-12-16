@@ -30,3 +30,4 @@ function titularMaiusculo(&$conta){
    $conta['titular'] = mb_strtoupper($conta['titular']);
    return $conta['titular'];
 }
+ 
