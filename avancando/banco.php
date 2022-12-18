@@ -35,7 +35,14 @@ $contasCorrentes['123.256.789-12'] = depositar(
 unset($contasCorrentes['123.456.689-11']);
 
 titularMaiusculo($contasCorrentes['123.256.789-12']);
+
+// foreach ($contasCorrentes as $cpf => $conta) {
+//     ['titular' => $titular, 'saldo' => $saldo] = $conta;
+//     exibeMensagem("$cpf $titular $saldo");
+// }
 ?>
+
+
 
 <!DOCTYPE html>
 <html lang="en">
@@ -46,13 +53,16 @@ titularMaiusculo($contasCorrentes['123.256.789-12']);
     <title>Document</title>
 </head>
 <body>
-    <h1>Contas Correntes</h1>
-    
-    <dl>
-        <?php foreach($contasCorrentes as $cpf => $conta){ ?>
-        <dt><h3><?= $conta['titular'] ?> - <?= $cpf; ?></h3></dt>
-        <dd>Saldo: <?= $conta['saldo']; ?> </dd>
-   <?php } ?>
+        <h1>Contas Correntes</h1>
+        <?ph<dl>
+        <?php foreach($contasCorrentes as $cpf => $conta) { ?>
+        <dt>
+            <h3><?= $conta['titular']; ?> - <?= $cpf; ?></h3>
+        </dt>
+        <dd> 
+            Saldo: <?= $conta['saldo']; ?>
+        </dd>
+        <?php } ?>
     </dl>
 
 </body>
