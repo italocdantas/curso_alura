@@ -59,7 +59,7 @@ titularMaiusculo($contasCorrentes['123.256.789-12']);
         <dt>
             <h3><?= $conta['titular']; ?> - <?= $cpf; ?></h3>
         </dt>
-        <dd>
+        <dd> 
             Saldo: <?= $conta['saldo']; ?>
         </dd>
         <?php } ?>
