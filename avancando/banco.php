@@ -54,7 +54,7 @@ titularMaiusculo($contasCorrentes['123.256.789-12']);
 </head>
 <body>
         <h1>Contas Correntes</h1>
-        <?ph<dl>
+        <dl>
         <?php foreach($contasCorrentes as $cpf => $conta) { ?>
         <dt>
             <h3><?= $conta['titular']; ?> - <?= $cpf; ?></h3>
