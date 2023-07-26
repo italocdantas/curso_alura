@@ -15,6 +15,6 @@ $notasBimestre2 = [
     'Maria' => 4,
     'Roberto' => 5,
 ];
+//teste
 
-
-var_dump(array_diff_key($notasBimestre1, $notasBimestre2));
+var_dump(array_diff_assoc($notasBimestre1, $notasBimestre2));
