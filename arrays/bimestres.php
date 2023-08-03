@@ -17,4 +17,5 @@ $notasBimestre2 = [
 ];
 //teste2
 
-var_dump(array_diff_assoc($notasBimestre1, $notasBimestre2));
+$arrayFaltantes = array_diff_key($notasBimestre1,$notasBimestre2);
+var_dump(array_keys($arrayFaltantes));
